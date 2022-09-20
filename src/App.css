@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
+.union{
+position: absolute;
+width: 31.75px;
+height: 38.92px;
+left: 0px;
+top: 0px;
+}
+.orda {
+position: absolute ;
+left: 2.5%;
+right: 85.32%;
+top: 0%;
+bottom: 29.38%;
+}
+.stroy {
+  position: absolute;
+  color: #555555;
+left: 0.06%;
+right: 85.32%;
+top: 8.72%;
+bottom: 5.44%;
+}
+.background {
+max-width: 100%;
+max-height: 100%;
+top: 0px;
+}
+.list-menu {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+position: absolute;
+width: 537px;
+height: 21px;
+left: 330px;
+top: 21px;
+}
+.project {
+width: 75px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.uslugi {
+
+width: 57px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #060606;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.techno {
+
+width: 99px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #060606;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.about {
+  
+width: 49px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #060606;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.news {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+width: 74px;
+height: 21px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #060606;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.clients{
+  width: 83px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #060606;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.button {
+  box-sizing: border-box;
+  background-image: none; 
+  background: transparent;
+
+  /* Auto layout */
+  
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 13.8495px 47.6423px;
+  gap: 5.54px;
+  
+  position: absolute;
+  width: 190px;
+  height: 50px;
+  left: 1100px;
+  top: 7px;
+  
+  border: 1px solid #1B5027;
+  border-radius: 5px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.button-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 11.08px;
+  
+  width: 124.3px;
+  height: 14px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
+.text{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+width: 93px;
+height: 14px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 12.1876px;
+line-height: 14px;
+
+color: #1B5027;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vector {
+
+  width: 20px;
+  height: 0px;
+  
+  background: #1B5027;
+  border: 0.55398px solid #1B5027;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
