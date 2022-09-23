@@ -5,6 +5,9 @@ import background from './images/background.png';
 import stroy from './images/строительная компания.png';
 import orda from './images/ОРДА.png'
 import vector from './images/Vector 143.png'
+import ellipse1 from './images/Ellipse 1.png'
+import ellipse2 from './images/Ellipse 29.png'
+import ellipse3 from './images/Polygon 1.png'
 
 function App() {
   return (
@@ -30,10 +33,26 @@ function App() {
             <span className='text'>Оставить заявку </span>
             <img className='vector' src={vector} alt ='no img'/>
             </div>
-            
           </button>
         </div>
-       
+        <div className='head'>
+          <div className='button-play'>
+            <div className='play'>
+             
+                <img className='ellipse1' src = {ellipse1} alt ='no img'/>
+                <img className='ellipse2' src = {ellipse2} alt ='no img'/>
+                <img className='ellipse3' src = {ellipse3} alt = 'no img'/>
+
+                </div>
+            <div className='play-text'>
+                Посмотреть как строится дом прямо сейчас
+                </div>
+          </div>
+        </div>
+        <div>
+          <h1> Строим качественные дома вашей мечты!</h1>
+          <h2>Построим любой дом вашей мечты, который ляляля</h2>
+        </div>
       </header>
     </div>
   );
