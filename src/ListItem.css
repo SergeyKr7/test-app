@@ -1,0 +1,55 @@
+.listItem {
+Width: 410px;
+Height: 540px;
+margin: 12px;
+box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.type-project {
+margin: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #9a9595;
+
+}
+.name-project {
+margin-left: 20px;
+margin-top: -32px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+color: #545353;
+}
+.info {
+    margin-top: -18px;
+    display: flex;
+    justify-content: space-around;
+}
+.param1-name {
+margin-left: 25px;
+margin-top: -20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+line-height: 14px;
+color: #837f7f;
+}
+.param1-value {
+margin-left: 25px;
+ margin-top: -16px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+
+color: #000000;
+} 

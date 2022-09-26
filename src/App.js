@@ -8,6 +8,7 @@ import vector from './images/Vector 143.png'
 import ellipse1 from './images/Ellipse 1.png'
 import ellipse2 from './images/Ellipse 29.png'
 import ellipse3 from './images/Polygon 1.png'
+import List from './List.js';
 
 function App() {
   return (
@@ -53,8 +54,10 @@ function App() {
           <h1> Строим качественные дома вашей мечты!</h1>
           <h2>Построим любой дом вашей мечты, который ляляля</h2>
         </div>
-      </header>
+    </header> 
+    <List/>
     </div>
+    
   );
 }
 
